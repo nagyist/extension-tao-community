@@ -74,12 +74,9 @@ class Main extends tao_actions_Main
     {
         $this->defaultData();
 
-        if (common_session_SessionManager::isAnonymous()) {
-            /* @var $urlRouteService DefaultUrlService */
-            $urlRouteService = $this->getServiceLocator()->get(DefaultUrlService::SERVICE_ID);
-            $this->redirect($urlRouteService->getLoginUrl());
-        } else {
-            $this->redirect(_url('entry', 'Main', 'tao'));
-        }
+        /** @var DefaultUrlService $urlRouteService */
+        $urlRouteService = $this->getServiceLocator()->get(DefaultUrlService::SERVICE_ID);
+
+        $this->redirect($urlRouteService->getRootEntryUrl(common_session_SessionManager::isAnonymous()));
     }
 }

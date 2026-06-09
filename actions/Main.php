@@ -13,7 +13,7 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ * Foundation, Inc., 31 Milk St # 960789 Boston, MA 02196 USA.
  *
  * Copyright (c) 2014-2018 (original work) Open Assessment Technologies SA;
  */
@@ -74,12 +74,9 @@ class Main extends tao_actions_Main
     {
         $this->defaultData();
 
-        if (common_session_SessionManager::isAnonymous()) {
-            /* @var $urlRouteService DefaultUrlService */
-            $urlRouteService = $this->getServiceLocator()->get(DefaultUrlService::SERVICE_ID);
-            $this->redirect($urlRouteService->getLoginUrl());
-        } else {
-            $this->redirect(_url('entry', 'Main', 'tao'));
-        }
+        /** @var DefaultUrlService $urlRouteService */
+        $urlRouteService = $this->getServiceLocator()->get(DefaultUrlService::SERVICE_ID);
+
+        $this->redirect($urlRouteService->getRootEntryUrl(common_session_SessionManager::isAnonymous()));
     }
 }

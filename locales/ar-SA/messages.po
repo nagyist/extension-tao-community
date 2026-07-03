@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-open-source\n"
-"PO-Revision-Date: 2025-12-11 11:59\n"
+"PO-Revision-Date: 2026-07-03 14:50\n"
 "Last-Translator: TAO Translation Team <translation@tao.lu>\n"
 "MIME-Version: 1.0\n"
 "Language: ar\n"
@@ -230,3 +230,4 @@ msgstr "يمكنك استيراد الروائز التي تم إنشاؤها ب
 
 msgid "You can specify test settings such as:"
 msgstr "يمكنك تحديد إعدادات الاختبار مثل:"
+

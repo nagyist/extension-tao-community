@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tao-open-source\n"
-"PO-Revision-Date: 2023-06-07 08:06\n"
+"PO-Revision-Date: 2026-07-03 14:50\n"
 "Last-Translator: TAO Translation Team <translation@tao.lu>\n"
 "MIME-Version: 1.0\n"
 "Language: nl\n"
@@ -100,7 +100,7 @@ msgid "Hint: You can access this overview at any time via the Help button."
 msgstr "Hint: U kunt dit overzicht te allen tijde bereiken middels de Help button."
 
 msgid "Hotspot"
-msgstr ""
+msgstr "Hotspot"
 
 msgid "If your needs go beyond what the QTI standard allows, you can develop powerful and sophisticated item types using the TAO Open Web Item format."
 msgstr "Indien uw wensen verder gaan dan wat standaard QTI toestaat, kunt u krachtige en geavanceerde items aanmaken door gebruik te maken van het TAO Open Web Item formaat."
@@ -124,10 +124,10 @@ msgid "In TAO, tests are assigned to groups."
 msgstr "In TAO worden toetsen toegewezen aan groepen."
 
 msgid "Item(s)"
-msgstr ""
+msgstr "Artikel(en)"
 
 msgid "Items"
-msgstr ""
+msgstr "Artikelen"
 
 msgid "Manage Reports"
 msgstr "Beheer rapporten"
